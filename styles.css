@@ -1,0 +1,111 @@
+.login_form_heading{
+    box-sizing:border-box;
+    padding: inherit;
+   
+}
+ 
+.login_form_name{
+    margin: 15px 0 15px 0;
+    width:200px;
+    border:none;
+    padding: 10px 0;
+    border-bottom:solid 1px lightgreen;
+    background: linear-gradient(to bottom,rgba(255,255,255,0) 96%,lightgreen 4%);
+    background-position:-200px 0;
+    background-size:200px 100%;
+    background-repeat:no-repeat;
+    color:black;
+}
+ 
+.login_form_username{
+    margin:15px 0 15px 0;
+    width:200px;
+    border:none;
+    padding: 10px 0;
+    border-bottom:solid 1px lightgreen;
+    background: linear-gradient(to bottom,rgba(255,255,255,0) 96%,lightgreen 4%);
+    background-position:-200px 0;
+    background-size:200px 100%;
+    background-repeat:no-repeat;
+    color:black;
+}
+ 
+.login_form_password{
+    margin:15px 0 15px 0;
+    width:200px;
+    border:none;
+    padding: 10px 0;
+    border-bottom:solid 1px lightgreen;
+    background: linear-gradient(to bottom,rgba(255,255,255,0) 96%,lightgreen 4%);
+    background-position:-200px 0;
+    background-size:200px 100%;
+    background-repeat:no-repeat;
+    color:black;
+}
+ 
+.login_form_btn{
+    border:none;
+    background:lightgreen;
+    cursor:pointer;
+    border-radius:3px;
+    padding:6px;
+    width:200px;
+    color:black;
+}
+ 
+*{
+    background-color: beige;
+    color: #472d2d;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.progress {
+    background-color: lightgrey;
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+}
+ 
+.progress-done {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: repeating-linear-gradient(
+      to left,
+      #850E35,
+      #EE6983,
+      #FFC4C4
+    );
+    border-radius: 20px;
+    color: #fff;
+    height: 100%;
+    width: 0;
+    transition: 1s ease 0.3s;
+}
+ 
+.inputContainer {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+   
+}
+ 
+.table_income{
+    border: 4px solid black;
+    width: 100%;
+}
+ 
+.table_expense{
+    border: 4px solid black;
+    width: 100%;
+}
+ 
+table input[type=number]{
+    width: 80px;
+}
+ 
